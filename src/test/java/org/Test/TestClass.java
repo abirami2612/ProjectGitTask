@@ -1,14 +1,18 @@
 package org.Test;
 
-import org.base.BaseClass;
-import org.openqa.selenium.support.PageFactory;
-
-public class TestClass extends BaseClass {
+public class TestClass {
 	
-	public  TestClass() {
+	public static void main(String[] args) {
 		
-		PageFactory.initElements(driver, this);
+		System.out.println("Test1");
+		System.out.println("Test2");
+		System.out.println("Test3");
 		
 	}
+	
+	
+	
+	
+	
 
 }
